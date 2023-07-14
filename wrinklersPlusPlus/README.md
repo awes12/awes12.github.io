@@ -1,5 +1,5 @@
 # WrinklersPlusPlus
-A cookie clicker mod that changes the wrinkler
+A cookie clicker mod that changes the wrinkler limit
 ## Description
   The wrinkler limit is now based on how many times you've reached the 3rd stage of the grandmapocalypse **in previous ascensions.**
 
