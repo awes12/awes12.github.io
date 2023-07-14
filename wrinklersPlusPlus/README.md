@@ -19,6 +19,15 @@ javascript:Game.LoadMod('https://awes12.github.io/wrinklersPlusPlus/src/mod.js')
 #### Through a Userscript (Greasemonkey or Tampermonkey):
 Provided you know how to use userscripts, paste the below into a userscript
 ```
+// ==UserScript==
+// @name Wrinklers++
+// @namespace Cookie
+// @include http://orteil.dashnet.org/cookieclicker/
+// @include https://orteil.dashnet.org/cookieclicker/
+// @version 1
+// @grant none
+// ==/UserScript==
+
 (function() {
     let checkDefined = setInterval(function() {
         if (Game != undefined && Game.LoadMod != undefined) {
