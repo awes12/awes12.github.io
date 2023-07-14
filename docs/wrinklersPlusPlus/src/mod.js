@@ -367,7 +367,6 @@
                         break;
                     }
                 }
-                row.push(me);
                 Game.wrinklerInfo.wrinklersAvailable++;
             }
             Game.wrinklerInfo.wrinklersSucking.remove(me);
