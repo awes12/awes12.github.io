@@ -55,7 +55,7 @@ Game.wrinklerLimit = n; //new limit
 ```
 ## Contributing
 
-Pull requests are welcome, especially to fix bugs. For major changes, please open an issue first to discuss what you would like to change. See github page (https://github.com/awes12/awes12.github.io/tree/main/wrinklersPlusPlus)[here]
+Pull requests are welcome, especially to fix bugs. For major changes, please open an issue first to discuss what you would like to change. See github page [here](https://github.com/awes12/awes12.github.io/tree/main/wrinklersPlusPlus)
 
 ## Incompatibilities
 None I know of right now, but likely since I redefine some of the cookie clicker functions.
