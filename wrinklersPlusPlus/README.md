@@ -14,7 +14,7 @@ A cookie clicker mod that changes the wrinkler limit
 #### Through a bookmark:
 Save the link below to a bookmark (or just paste into the searchbar), then click it whenever you want to load the mod. Make sure the "javascript:" part is saved, chrome sometimes deletes that part when pasting. If not, just manually add it.
 ```
-javascript:Game.LoadMod('https://github.com/awes12/WrinklersPlusPlus/blob/main/src/mod.js');
+javascript:Game.LoadMod('https://awes12.github.io/wrinklersPlusPlus/src/mod.js');
 ```
 #### Through a Userscript (Greasemonkey or Tampermonkey):
 Provided you know how to use userscripts, paste the below into a userscript
@@ -22,7 +22,7 @@ Provided you know how to use userscripts, paste the below into a userscript
 (function() {
     let checkDefined = setInterval(function() {
         if (Game != undefined && Game.LoadMod != undefined) {
-          Game.LoadMod('https://github.com/awes12/WrinklersPlusPlus/blob/main/src/mod.js');
+          Game.LoadMod('https://awes12.github.io/wrinklersPlusPlus/src/mod.js');
             clearInterval(checkDefined );
         }
     }, 100);
